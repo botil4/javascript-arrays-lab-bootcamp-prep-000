@@ -10,5 +10,5 @@ function kittens() {
 
 function destructlivelyAppendKitten(name) {
   names = kittens()
-  return names.push(name)
+  return kittens = names.push(name)
 }
