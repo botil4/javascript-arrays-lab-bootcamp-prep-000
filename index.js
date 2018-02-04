@@ -5,8 +5,10 @@ function Arrays() {
 
 function kittens() {
   var kittens = ["Milo", "Otis", "Garfield"]
+  return kittens
 }
 
 function destructlivelyAppendKitten(name) {
-  
+  names = kittens()
+  return names.push(name)
 }
