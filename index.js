@@ -6,3 +6,7 @@ function Arrays() {
 function kittens() {
   var kittens = ["Milo", "Otis", "Garfield"]
 }
+
+function destructlivelyAppendKitten(name) {
+  
+}
