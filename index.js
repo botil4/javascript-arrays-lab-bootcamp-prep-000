@@ -63,7 +63,7 @@ function Arrays() {
 }
 
 function removeLastKitten() {
-  var kittensNew = kittens.pop()
+  var kittensNew = kittens.slice(0,1)
   return kittensNew
 }
 
