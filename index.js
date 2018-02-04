@@ -72,7 +72,7 @@ function Arrays() {
 }
 
 function removeFirstKitten() {
-  var kittensNew = kittens.slice()
+  var kittensNew = kittens.slice(1)
   return kittensNew
 }
 
