@@ -4,4 +4,5 @@ window.kittens = ["Milo", "Otis", "Garfield"]
 
 function destructlivelyAppendKitten(name) {
   window.kittens = kittens.push(name)
+  return kittens
 }
