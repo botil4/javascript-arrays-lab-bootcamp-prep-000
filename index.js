@@ -4,7 +4,9 @@ function Arrays() {
   window.kittens = ['Milo', 'Otis', 'Garfield']
 }
 
-
+function kittens() {
+  var kittens = 
+}
 
 function destructivelyAppendKitten(name) {
   kittens.push(name)
